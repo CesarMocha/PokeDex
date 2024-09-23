@@ -1,0 +1,80 @@
+
+ /* Estilos de las tarjetas */
+.pokemon-card {
+    font-family: "Courier New", monospace;
+    margin: 10px; 
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 600px;
+    height: 330px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.pokemon-image {
+    height: 150px; 
+    object-fit: cover;
+    
+}
+.card-text {
+    font-family: "Courier New", monospace;
+    color: #ffffff;
+    font-size: 0.8rem;
+    line-height: 1.0;
+}
+.card-body {
+    background-color: #a83b3b;
+    padding: 15px;
+    text-align: center;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 3px 6px rgb(0, 0, 0);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.carousel-item > .row {
+    justify-content: center;
+}
+.carousel-item > .row > .col-md-3 {
+    flex: 0 0 auto;
+    width: 200px; 
+    display: flex;
+    margin: 10px; 
+}
+body {
+    background-color: #6f6f6f; 
+}
+.pokemon-type-bar {
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    background-color: #c68e28; 
+    color: white;
+    padding: 5px 10px; 
+    font-size: 12px; 
+    width: 101%; 
+    text-align: center;
+    margin-bottom: 0px; 
+    box-shadow: 0 3px 6px rgb(0, 0, 0);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+#searchContainer {
+    display: flex;
+    justify-content: center;
+    height: 1vh;
+}
+.datos {
+    text-align: center;   
+}
+#titulo {
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    letter-spacing: 15px;
+}

@@ -1,0 +1,56 @@
+.carousel {
+    position: relative;
+    width: 100%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    top: 115%;
+    transform: translateY(-115%);
+}
+.carousel-control-prev {
+    left: 650px; 
+}
+
+.carousel-control-next {
+    right: 650px; 
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+.mb-3-typeSelect{
+color: blueviolet;
+}
+
+/* Estilo para el menú desplegable */
+#typeSelect {
+    font-family: "Courier New", monospace;
+    width: 15%; 
+    padding: 5px; 
+    border: none; 
+    border-radius: 2px; 
+    background-color: #4b4b4b; 
+    color: #ffffff;
+    font-size: 0,8rem;
+    cursor: pointer; 
+}
+#typeSelect option {
+    background-color: #4b4b4b; 
+    color: #ffffff; 
+}
+#nameInput{
+    font-family: "Courier New", monospace;
+    width: 100%; 
+    border: none; 
+    border-radius: 2px;
+    font-size: 0,8rem;
+    background-color: #4b4b4b;
+}
